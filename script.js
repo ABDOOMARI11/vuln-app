@@ -1,6 +1,7 @@
 document.getElementById("searchForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
+  
   const query = document.getElementById("search").value;
 
   // ❌ Vulnérabilité #1 : XSS (injection directe dans innerHTML)
