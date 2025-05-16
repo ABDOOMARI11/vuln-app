@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vuln Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- ⚠️ jQuery vulnérable (v1.6.1) -->
+  <script src="https://code.jquery.com/jquery-1.6.1.min.js"></script>
+</head>
+<body>
+  <h1>Vulnerable Web App</h1>
+
+  <form id="searchForm">
+    <input type="text" id="search" placeholder="Search..." />
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
